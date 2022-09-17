@@ -1,1 +1,4 @@
+List is versatile data type available in Python. the difference between lists and arrys is in array we can add sigle date type elements but in lists we can add any type of data type like (int,float,sting,char)
+Syntax of creating List      --------------------> list_variable = [val1,val2....]
 
+Access Values in Lists       --------------------> seq = list[start:stop:step]
