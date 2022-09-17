@@ -48,5 +48,24 @@ while i < (len(l1)):
 9.all ---------------> Returns True Value if all elements of list are ture(or if the list is empty)
         a = [6,2,3,4,5]
         print(all(a)) #output True
+	      
+	num = [1,2,3,0]
+	print(all(num)) #OutPut False
+	   
         
-        
+10.any --------------> Returns True if any element if the list is true.if list is empty return false.
+	
+		num_list = [6,3,7,0,1,2,4,9]
+		print(any(num_list)) #True
+		  
+		  
+11.list --------------> Converts an interable (tuple,string,set,dictionary) to a list
+		  
+		  list1 = list("Hello")
+		  print(list1) #output ['H', 'e', 'l', 'l', 'o']
+		  
+12.sorted -------------> Return a new sorted list.The original list is not sorted.
+		  
+		  list1 = [2,3,45,6,7,8]
+		  list2 = sorted(list1)
+		  print(list2) #output [2, 3, 6, 7, 8, 45]
