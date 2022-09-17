@@ -2,3 +2,8 @@ List is versatile data type available in Python. the difference between lists an
 Syntax of creating List      --------------------> list_variable = [val1,val2....]
 
 Access Values in Lists       --------------------> seq = list[start:stop:step]
+
+Updating Values in lists     --------------------> 
+                             list1 = [1,2,3,4,5,6,7]
+                             list1.append(8) #using append() is use to add new element in the end of the element 
+                             list1[2] = 30
